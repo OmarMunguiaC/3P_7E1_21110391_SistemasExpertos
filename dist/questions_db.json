@@ -1,0 +1,42 @@
+[
+    {
+        "text": "\u00bfLa computadora enciende?",
+        "factor": "turn-on"
+    },
+    {
+        "text": "\u00bfLa computadora enciende y se apaga inmediatamente?",
+        "factor": "self-turn-off"
+    },
+    {
+        "text": "\u00bfLa computadora se sobrecalienta?",
+        "factor": "overheat"
+    },
+    {
+        "text": "\u00bfA la computadora le fallan las teclas?",
+        "factor": "keyboard"
+    },
+    {
+        "text": "\u00bfLa pantalla no se ve completa?",
+        "factor": "half-screeen"
+    },
+    {
+        "text": "\u00bfLa pantalla esta completamente en negro?",
+        "factor": "black-screen"
+    },
+    {
+        "text": "\u00bfLa computadora  va lento?",
+        "factor": "slow"
+    },
+    {
+        "text": "\u00bfLa computadora hace mucho ruido?",
+        "factor": "sound"
+    },
+    {
+        "text": "\u00bfSe inicia el BIOS en lugar del sistema operativo?",
+        "factor": "BIOS"
+    },
+    {
+        "text": "\u00bfA la computadora le cayo algun liquido?",
+        "factor": "wet"
+    }
+]

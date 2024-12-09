@@ -1,0 +1,137 @@
+[
+    {
+        "description": "El problema puede deberse a un fallo con la fuente de energia",
+        "rules": [
+            {
+                "factor": "turn-on",
+                "expected": false
+            }
+        ]
+    },
+    {
+        "description": "El da\u00f1o se puede deber a un procesador quemado, Favor de colocar uno nuevo",
+        "rules": [
+            {
+                "factor": "self-turn-off",
+                "expected": true
+            }
+        ]
+    },
+    {
+        "description": "El da\u00f1o se puede deber a un sistema de ventilaci\u00f3n atorado o a una pasta termica que requiere cambiarse",
+        "rules": [
+            {
+                "factor": "overheat",
+                "expected": true
+            }
+        ]
+    },
+    {
+        "description": "El problema puede deberse a una membrana de teclado o un switch descompuesto, Favor de reemplazar",
+        "rules": [
+            {
+                "factor": "keyboard",
+                "expected": true
+            }
+        ]
+    },
+    {
+        "description": "El da\u00f1o puede deberse a una pantalla quemada o los cables del mismo",
+        "rules": [
+            {
+                "factor": "half-screeen",
+                "expected": true
+            }
+        ]
+    },
+    {
+        "description": "La placa de la pantalla esta completamente quemada, Favor de reemplazar",
+        "rules": [
+            {
+                "factor": "black-screen",
+                "expected": true
+            }
+        ]
+    },
+    {
+        "description": "La lentitud puede deberse a componentes desactualizados o en mal funcionamiento, Favor de verificar la integridad de los mismos",
+        "rules": [
+            {
+                "factor": "slow",
+                "expected": true
+            }
+        ]
+    },
+    {
+        "description": "El error puede deberse a una pieza suelta o un sistema de ventilaci\u00f3n sucio, Favor de revisar",
+        "rules": [
+            {
+                "factor": "sound",
+                "expected": true
+            }
+        ]
+    },
+    {
+        "description": "El problema puede deberse a que no se tiene un sistema operativo instalado o un mal direccionamiento en el mismo, Consulte la guia de su BIOS para agregarlo",
+        "rules": [
+            {
+                "factor": "BIOS",
+                "expected": true
+            }
+        ]
+    },
+    {
+        "description": "El da\u00f1o probablemente caus\u00f3 un corto circuito en la motherboard, verifique la integridad de la misma",
+        "rules": [
+            {
+                "factor": "wet",
+                "expected": true
+            }
+        ]
+    },
+    {
+        "description": "No hay ningun error en su computadora",
+        "rules": [
+            {
+                "factor": "turn-on",
+                "expected": true
+            },
+            {
+                "factor": "self-turn-off",
+                "expected": false
+            },
+            {
+                "factor": "overheat",
+                "expected": false
+            },
+            {
+                "factor": "keyboard",
+                "expected": false
+            },
+            {
+                "factor": "half-screeen",
+                "expected": false
+            },
+            {
+                "factor": "black-screen",
+                "expected": false
+            },
+            {
+                "factor": "slow",
+                "expected": false
+            },
+            {
+                "factor": "sound",
+                "expected": false
+            },
+            {
+                "factor": "BIOS",
+                "expected": false
+            },
+            {
+                "factor": "wet",
+                "expected": false
+            }
+        ]
+    }
+]
